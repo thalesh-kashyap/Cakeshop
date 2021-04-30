@@ -152,8 +152,8 @@ class Login extends PureComponent {
                 }
             },()=>{
                 return(axios   ({
-                    // url:'http://68.183.80.25:8001/api/login/',
-                    url:'http://127.0.0.1:8000/api/login/',
+                    url:'http://68.183.80.25:8014/api/login/',
+                    // url:'http://127.0.0.1:8000/api/login/',
                     method:'post',
                     data:this.state.user
                 }).then((response)=>{

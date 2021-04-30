@@ -48,8 +48,8 @@ function Cakelist() {
             axios({
                 method: "get",
                 // url: "https://apibyashu.herokuapp.com/api/allcakes"
-               url: "http://127.0.0.1:8000/api/allcakes/",
-                // url:"http://68.183.80.25:8001/api/allcakes/",
+            //    url: "http://127.0.0.1:8000/api/allcakes/",
+                url:"http://68.183.80.25:8014/api/allcakes/",
                 // headers: {
                 //     Authorization : "Bearer "+localStorage.token
                 // }

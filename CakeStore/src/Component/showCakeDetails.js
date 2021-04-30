@@ -29,8 +29,8 @@ function ShowCakeDetails(props) {
         // })
 
         
-        // var apiurl = "http://68.183.80.25:8001/api/cake/" + cakeid
-        var apiurl = "http://127.0.0.1:8000/api/cakes/" + cakeid
+        var apiurl = "http://68.183.80.25:8014/api/cakes/" + cakeid
+        // var apiurl = "http://127.0.0.1:8000/api/cakes/" + cakeid
         axios({
             url: apiurl,
             method: "get",
@@ -58,8 +58,8 @@ function ShowCakeDetails(props) {
                 email: localStorage.email
             }
             axios({
-                // url: "http://68.183.80.25:8001/api/addcaketocart/",
-                url: "http://127.0.0.1:8000/api/addcaketocart/",
+                url: "http://68.183.80.25:8014/api/addcaketocart/",
+                // url: "http://127.0.0.1:8000/api/addcaketocart/",
                 method: "post",
                 data: cartcakedata,
                 headers: {

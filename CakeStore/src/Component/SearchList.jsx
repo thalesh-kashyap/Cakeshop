@@ -13,8 +13,8 @@ function SearchList(props) {
         axios({
             method: "get",
             // url: `https://apibyashu.herokuapp.com/api/searchcakes?q=` + query.q
-            // url:"http://68.183.80.25:8001/api/searchcakes/"+query.q
-            url:"http://127.0.0.1:8000/api/searchcakes/"+query.q
+            url:"http://68.183.80.25:8014/api/searchcakes/"+query.q
+            // url:"http://127.0.0.1:8000/api/searchcakes/"+query.q
         }).then((response) => {
             console.log("sucesssssss from searchcakes", response.data)
             if (response.data) {
