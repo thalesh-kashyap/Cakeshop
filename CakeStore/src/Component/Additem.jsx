@@ -101,8 +101,8 @@ class Additem extends PureComponent {
            },()=>{
             axios({
                 method:"post",
-                // url:"http://68.183.80.25:8001/api/addcake/",
-                url:"http://127.0.0.1:8000/api/addcake/",
+                url:"http://68.183.80.25:8014/api/addcake/",
+                // url:"http://127.0.0.1:8000/api/addcake/",
                 data:this.state.newitem,
                 headers: {
                     Authorization : "Token "+localStorage.token

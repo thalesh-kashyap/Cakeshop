@@ -55,8 +55,8 @@ function Addressdata(props) {
                 axios({
                     method: "post",
                     // url: "https://apibyashu.herokuapp.com/api/addcakeorder",
-                    // url:"http://68.183.80.25:8001/api/placeorder/",
-                    url:"http://127.0.0.1:8000/api/placeorder/",
+                    url:"http://68.183.80.25:8014/api/placeorder/",
+                    // url:"http://127.0.0.1:8000/api/placeorder/",
                     data:tempitem,
                     headers: {
                         Authorization : "Token "+localStorage.token
