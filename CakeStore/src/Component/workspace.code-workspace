@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\..\\..\\HTML Training\\Task2"
+		},
+		{
+			"path": "..\\..\\..\\..\\HTML Training\\Task1"
+		},
+		{
+			"path": "..\\..\\..\\..\\New Training\\HTML\\bootstrap-3.3.7-dist"
+		},
+		{
+			"path": "..\\..\\..\\..\\New Training\\javascript"
+		},
+		{
+			"path": "..\\..\\..\\..\\New Training\\jquery"
+		},
+		{
+			"path": "..\\..\\.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "HTML"
+	}
+}
